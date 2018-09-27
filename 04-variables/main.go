@@ -18,3 +18,5 @@ DECLARE a VARIABLE stores a VALUE of a certain TYPE
 we ASSIGN a VALUE of a certain TYPE to a VARIABLE
 declare & assign ==> initialize
 */
+
+/*add*/

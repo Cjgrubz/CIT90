@@ -27,5 +27,5 @@ func bar(x string, y int) (string, int) {
 }
 
 // we will pass ARGUMENTS in to a function that has been defined with PARAMETERS
-
+/*add*/
 // func receiver identifier(parameters) return(s) {code}

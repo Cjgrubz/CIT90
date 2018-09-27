@@ -16,3 +16,4 @@ func main() {
 // if you declare a VAR of a certain TYPE
 // and do not ASSIGN a VALUE to that VAR
 // a ZERO VALUE will be ASSIGNED to that VAR
+/*add*/

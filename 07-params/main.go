@@ -26,3 +26,4 @@ func main() {
 func foo(name string) {
 	fmt.Println("Hello", name)
 }
+/*add*/

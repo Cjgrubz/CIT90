@@ -13,3 +13,4 @@ func foo(s string) string {
 	//return fmt.Sprint("Hello ", s, "!")
 	return "Hello " + s + "!"
 }
+/*add*/

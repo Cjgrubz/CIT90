@@ -14,3 +14,4 @@ func foo() {
 	y := 32
 	fmt.Println(x, y)
 }
+/*add*/

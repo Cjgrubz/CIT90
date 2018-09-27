@@ -17,3 +17,4 @@ func main() {
 	x = 7
 	fmt.Println(x)
 }
+/*add*/
