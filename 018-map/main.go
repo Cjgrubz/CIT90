@@ -12,3 +12,4 @@ func main() {
 	fmt.Println(m["James"])
 
 }
+/*add*/

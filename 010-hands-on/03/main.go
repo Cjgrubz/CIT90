@@ -19,3 +19,4 @@ func main() {
 func foo(x string, y int) {
 	fmt.Println(x, y)
 }
+/*add*/

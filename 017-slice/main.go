@@ -15,3 +15,4 @@ func main () {
 	fmt.Printf("%T\n", xi)
 	fmt.Println(xi)
 }
+/*add*/

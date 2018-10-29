@@ -1,38 +1,36 @@
 package main
 
 import (
+	"fmt"
+	"os"
+	"log"
 	"strings"
 	"io"
-	"log"
-	"os"
-	"fmt"
 )
 
 func main() {
-	//create string
-	//assign to var
+	// CREATE STRING
+	// assign to variable
 	name := "James"
-	
 	str := `html here` + name + `more html`
-
 	fmt.Println(str)
 
-	//create string
-	//string print
+	// CREATE STRING
+	// string print
+	s := fmt.Sprint(`mas ` + name + `menos`)
+	fmt.Println(s)
 
-	s := fmt.Sprint(`maas `+ name + `menos`)
-
+	// CREATE FILE
+	// io.Copy to the file
 	nf, err := os.Create("newfile.txt")
 	if err != nil {
 		log.Fatal("whoops", err)
 	}
-	//Create file
-	//io copy to the file
 
 	io.Copy(nf, strings.NewReader(s))
-	//Create File
-	//write string to file
 
+	// CREATE FILE
+	// writestring to file
 	nf2, err := os.Create("newfile2.txt")
 	if err != nil {
 		log.Fatal("whoops", err)
@@ -42,6 +40,6 @@ func main() {
 	if err != nil {
 		log.Fatal("whoops2", err)
 	}
-	
+
 	fmt.Println("bytes written", n)
 }
